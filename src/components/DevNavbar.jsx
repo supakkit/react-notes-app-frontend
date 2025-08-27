@@ -8,7 +8,6 @@ export function DevNavbar() {
             <h2>Dev Navbar:</h2>
             <Link to="/dashboard" className="bg-red-800 px-1 rounded-md">Dashboard</Link>
             <Link to="/profile" className="bg-red-800 px-1 rounded-md">Profile</Link>
-            <Link to="/notes" className="bg-red-800 px-1 rounded-md">Notes</Link>
         </div>
     );
 }

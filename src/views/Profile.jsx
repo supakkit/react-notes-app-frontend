@@ -18,11 +18,11 @@ export function Profile() {
                 className="font-bold text-lg"
             >Public Notes</h3>
             <div className="grid justify-center sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {/* <NoteCard isPublic={true} />
                 <NoteCard isPublic={true} />
                 <NoteCard isPublic={true} />
                 <NoteCard isPublic={true} />
-                <NoteCard isPublic={true} />
-                <NoteCard isPublic={true} />
+                <NoteCard isPublic={true} /> */}
             </div>
         </div>
     );

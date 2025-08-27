@@ -34,7 +34,7 @@ const router = createBrowserRouter([
         element: <Profile />
       },
       {
-        path: 'notes',
+        path: 'notes/:noteId',
         element: <Notes />
       },
     ]
